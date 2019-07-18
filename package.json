@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "module": "dist/index.js",
   "scripts": {
     "test": "tap index.test.js",
     "build": "parcel build index.js"
