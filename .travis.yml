@@ -1,11 +1,12 @@
 language: node_js
 node_js:
-  - "10"
+- '10'
 script:
-  - npm t
+- npm t
 deploy:
   provider: npm
   email: crifei93@gmail.com
-  api_key: $NPM_TOKEN
+  api_key:
+    secure: BkC6Wz1uxMFYzeKgOWUbZi7NIXvwfgsi+MamKEiafuC202a+GQs1zVrfWxUE0EK6aQWZWi0RVVv8i2j9ednngo0Te/+O469IlVrZweSun/n+9ubSR5AtVNttryuB0pWPy1aqjQQXKKwe9nASZp+OnqZrgvZLAab7XIfX1Ua7S19MU+Pp9rcXorlcsl7XRX1RcNV41n/v3OEDeKvdXP0t3CvdjKaCHQGLwvk9YgGuDajmrclsJe8ltZh2LEOHad1KTfWmLEFO9CJPSSW//sy/U6tuxUTmxyvtG/QFJcXERkUnxwPPvn5fIDF4xAjsfFO8hUKut74W4OXauQer+nlYg3I1iHu22AvjqVp640jLO9hKAvJWiyCy3y5nQK+xB8h2T4bHbfxXjCyQnbaGma8LoBY+LRcNu+BypRVEQtzsfbw4H1J//Xeid86CvUsY8ClE1OX3+XW1+YRl0M2kD0wHEUCxBcLLb+R6v+VpHqD2hB/97GZkmfR2oV0irOeKq7xYKwVUqw4UFSFz5hE52/OspB/c3GT/1Fmypw/3497vI/tvZq8pi0o/YWKyFjqeZAK36BGn3NCMhvJmxdY3UrQBXC+A1n3uvNjeB2BShN3/gR1vGlzYdz+4kewNRu2gEvfNFlOoP30DSXhsyHGh/VyQltUyBWKl552lImBiJYEnL9M=
   on:
     tags: true
